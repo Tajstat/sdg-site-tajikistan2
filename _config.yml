@@ -20,6 +20,7 @@ metadata_edit_url: http://prose.io/#tajstat/sdg-site-tajikistan/edit/develop/met
 # The list of languages that are translated. The first one is the default.
 languages:
   - en
+  - ru
 
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
