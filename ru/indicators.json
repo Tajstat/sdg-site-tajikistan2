@@ -19,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -102,14 +102,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-a-3",
-          "title": "Суммарный объем субсидий и не образующегозадолженности притока средств, непосредственновыделяемых на программы сокращения масштабовнищеты, в процентном отношении к ВВП",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-tajikistan/ru/1-a-3",
-          "status": "notstarted"
-        },
-        {
           "id": "1-b-1",
           "title": "Доля текущих и капитальных государственныхрасходов в секторах, которые приносят преимущественнуювыгоду женщинам, бедным и уязвимымгруппам населения",
           "description": "",
@@ -147,7 +139,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
@@ -155,6 +147,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/2-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "2-2-3",
+          "title": "global_indicators.2-2-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/2-2-3",
           "status": "notstarted"
         },
         {
@@ -203,7 +203,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
@@ -243,7 +243,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
@@ -251,7 +251,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-1",
@@ -259,7 +259,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
@@ -267,7 +267,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
@@ -275,7 +275,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
@@ -283,7 +283,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
@@ -315,7 +315,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
@@ -323,7 +323,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-1",
@@ -347,7 +347,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-1",
@@ -355,7 +355,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
@@ -363,7 +363,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
@@ -411,7 +411,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-1",
@@ -443,7 +443,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-1",
@@ -451,6 +451,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/3-d-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-d-2",
+          "title": "global_indicators.3-d-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/3-d-2",
           "status": "notstarted"
         }]
     }
@@ -467,6 +475,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/4-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "global_indicators.4-1-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/4-1-2",
           "status": "notstarted"
         },
         {
@@ -491,7 +507,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-4-1",
@@ -611,7 +627,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/5-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-2",
@@ -779,7 +795,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
@@ -835,7 +851,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
@@ -883,7 +899,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
@@ -891,7 +907,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-7-1",
@@ -899,7 +915,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-1",
@@ -907,7 +923,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-2",
@@ -926,20 +942,12 @@
           "status": "notstarted"
         },
         {
-          "id": "8-9-2",
-          "title": "Доля занятых в индустрии устойчивого туризмав общем числе рабочих мест в отрасли",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-tajikistan/ru/8-9-2",
-          "status": "notstarted"
-        },
-        {
           "id": "8-10-1",
           "title": "Число a) филиалов коммерческих банков иb) банкоматов на 100 000 взрослых",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
@@ -947,7 +955,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/8-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-a-1",
@@ -995,7 +1003,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
@@ -1003,7 +1011,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -1035,7 +1043,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
@@ -1107,6 +1115,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/10-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-2",
+          "title": "global_indicators.10-4-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/10-4-2",
           "status": "notstarted"
         },
         {
@@ -1139,6 +1155,22 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/10-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "global_indicators.10-7-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/10-7-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "global_indicators.10-7-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/10-7-4",
           "status": "notstarted"
         },
         {
@@ -1283,14 +1315,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/11-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-c-1",
-          "title": "Доля финансовой поддержки наименее развитыхстран, выделяемой на строительство экологичных,прочных и ресурсосберегающих зданий и переоборудование зданий для обеспечения их экологичности,прочности и экономии ресурсов с использованиемместных материалов",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-tajikistan/ru/11-c-1",
           "status": "notstarted"
         }]
     }
@@ -1446,19 +1470,19 @@
           "status": "notstarted"
         },
         {
+          "id": "13-2-2",
+          "title": "global_indicators.13-2-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/13-2-2",
+          "status": "notstarted"
+        },
+        {
           "id": "13-3-1",
           "title": "Число стран, включивших вопросы смягченияостроты и ослабления последствий измененияклимата, адаптации к ним и раннего предупрежденияв учебные программы начальной и средней школы ивысших учебных заведений",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/13-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-3-2",
-          "title": "Число стран, сообщивших об укрепленииинституциональных, системных и индивидуальныхвозможностей для осуществления мер в областиадаптации к климатическим изменениям, смягченияих последствий и передачи и развития технологии",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-tajikistan/ru/13-3-2",
           "status": "notstarted"
         },
         {
@@ -1579,7 +1603,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
@@ -1766,6 +1790,14 @@
           "status": "notstarted"
         },
         {
+          "id": "16-3-3",
+          "title": "global_indicators.16-3-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-tajikistan/ru/16-3-3",
+          "status": "notstarted"
+        },
+        {
           "id": "16-4-1",
           "title": "Общий объем входящих и исходящих незаконныхфинансовых потоков (в долларах США в текущихценах)",
           "description": "",
@@ -1931,7 +1963,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/17-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-5-1",
@@ -1947,15 +1979,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-tajikistan/ru/17-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-6-2",
-          "title": "Число стационарных абонентов широкополосногоИнтернета в разбивке по скорости",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-tajikistan/ru/17-6-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-7-1",

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://tajstat.github.io/sdg-data-tajikistan/ru',
+  remoteDataBaseUrl: 'https://tajstat.github.io/sdg-data-tajikistan/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'ru',
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -105,13 +105,9 @@ var translations = {
         
     <title>
         
-        Показатель 11.c.1 -
+        Indicator 2.2.3 -
         
-        Доля финансовой поддержки наименее развитых
-стран, выделяемой на строительство экологичных,
-прочных и ресурсосберегающих зданий и переоборудование зданий для обеспечения их экологичности,
-прочности и экономии ресурсов с использованием
-местных материалов - Показатели Целей устойчивого развития
+        global_indicators.2-2-3-title - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -142,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-tajikistan/assets/css/style.css?v=20210630012919">
+        <link rel="stylesheet" href="/sdg-site-tajikistan/assets/css/style.css?v=20210701182125">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -153,19 +149,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-ru layout-indicator">
+<body class="language-en layout-indicator">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Альфа","default_contrast":"стандартный контраст","disable_high_contrast":"Отключить высокую контрастность","disclaimer":"Это сайт находится в разработке. Мы рады вашим отзывам.","enable_high_contrast":"Включить высокую контрастность","high_contrast":"высокий контраст","skip_link":"Перейти к главному содержанию","tag_line":"17 Целей, чтобы преобразовать наш мир","toggle_menu":"Переключайте меню. Нажмите, чтобы развернуть или свернуть меню.","toggle_search":"Поисковая переключатель. Нажмите, чтобы развернуть или свернуть панель поиска."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Перейти к главному содержанию</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Альфа</strong>
+    <strong class="phase-tag">Alpha</strong>
     
-    Это сайт находится в разработке. Мы рады вашим отзывам.
+    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
   </div>
 </div>
 
@@ -175,8 +171,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/sdg-site-tajikistan/ru/" id="home">
-    <img src="/sdg-site-tajikistan/assets/img/SDG_logo.png" alt="Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир" />
+      <a class="navbar-brand" href="/sdg-site-tajikistan/" id="home">
+    <img src="/sdg-site-tajikistan/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -184,11 +180,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Pусский</span>
-      <span class="language-abbreviation">ru</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-tajikistan/11-c-1/">
-              English
+            <a href="/sdg-site-tajikistan/ru/2-2-3/">
+              Pусский
             </a>
           </li></ul>
   </div>
@@ -199,10 +195,10 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/sdg-site-tajikistan/ru/search">
-    <label class="sr-only" for="indicator_search">Поиск</label>
-    <input type="text" name="q" id="indicator_search" title="Поиск" /><!--
-    --><button aria-label="Поиск" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-site-tajikistan/search">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -218,11 +214,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Pусский</span>
-      <span class="language-abbreviation">ru</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-tajikistan/11-c-1/">
-              English
+            <a href="/sdg-site-tajikistan/ru/2-2-3/">
+              Pусский
             </a>
           </li></ul>
   </div>
@@ -237,21 +233,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Переключайте меню. Нажмите, чтобы развернуть или свернуть меню."
+        aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Меню</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/goals">Цели</a>
+    <a href="/sdg-site-tajikistan/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/reporting-status">Состояние отчётности</a>
+    <a href="/sdg-site-tajikistan/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/about">О нас</a>
+    <a href="/sdg-site-tajikistan/about">About</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/guidance">Руководство</a>
+    <a href="/sdg-site-tajikistan/guidance">Guidance</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/faq">Часто задаваемые вопросы</a>
+    <a href="/sdg-site-tajikistan/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/news">Обновления</a>
+    <a href="/sdg-site-tajikistan/news">Updates</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -263,11 +259,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Pусский</span>
-      <span class="language-abbreviation">ru</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-tajikistan/11-c-1/">
-              English
+            <a href="/sdg-site-tajikistan/ru/2-2-3/">
+              Pусский
             </a>
           </li></ul>
   </div>
@@ -280,31 +276,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Поисковая переключатель. Нажмите, чтобы развернуть или свернуть панель поиска."
+        aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Поиск</button>
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-tajikistan/ru/search">
-    <label class="sr-only" for="indicator_search-mobile">Поиск</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Поиск" /><!--
-    --><button aria-label="Поиск" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-site-tajikistan/search">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/goals">Цели</a>
+    <a href="/sdg-site-tajikistan/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/reporting-status">Состояние отчётности</a>
+    <a href="/sdg-site-tajikistan/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/about">О нас</a>
+    <a href="/sdg-site-tajikistan/about">About</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/guidance">Руководство</a>
+    <a href="/sdg-site-tajikistan/guidance">Guidance</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/faq">Часто задаваемые вопросы</a>
+    <a href="/sdg-site-tajikistan/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/news">Обновления</a>
+    <a href="/sdg-site-tajikistan/news">Updates</a>
 </li>
 </ul>
 
@@ -328,7 +324,7 @@ var translations = {
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Показать подкатегории: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="bar">
@@ -336,10 +332,10 @@ var translations = {
       </div>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Субкатегории - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Выделить всё</button>
-            <button data-type="clear">Очистить всё</button>
+            <button data-type="select">Select all</button>
+            <button data-type="clear">Clear all</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -350,10 +346,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Доступно, когда выбрано
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          Нет имеющихся вариантов из-за фильтров наверху.
+          No options available because of filters above
         </div>
       <% }%>
 
@@ -363,9 +359,9 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Единица измерения</h4>
+    <h4>Unit of Measurement</h4>
     <fieldset>
-      <legend class="sr-only">Единица измерения</legend>
+      <legend class="sr-only">Unit of Measurement</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -376,9 +372,9 @@ var translations = {
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4>Серии</h4>
+    <h4>Series</h4>
     <fieldset>
-      <legend class="sr-only">Серии</legend>
+      <legend class="sr-only">Series</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -387,7 +383,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 год Цель","announce_data_added":"Обновлены диаграмма и таблица для включения данных.","announce_data_not_available":"Диаграмма и таблица не содержат данных.","announce_data_removed":"Обновлены диаграмма и таблица для исключения данных.","chart":"График","chart_annotation":"Диаграмма аннотация","clear_all":"Очистить всё","clear_selections":"Очистить выделенное","data_keyboard_navigation":"Нажмите клавишу Enter для просмотра точек данных с помощью клавиш со стрелками вправо и влево.","data_not_available":"Эти данные не доступны. Пожалуйста, выберите альтернативные данные для отображения.","data_tabular_alternative":"Альтернативный вариант табличных данных см. в таблице табличных данных.","dataset_size_warning":"В таблице слишком много данных, чтобы показать в графике. Чтобы увидеть все, удалите выделенное.","download_chart":"Скачать график CSV","download_chart_image":"Загрузить изображение диаграммы","download_chart_image_title":"Скачать диаграмму как изображение","download_csv":"Скачать CSV","download_csv_title":"Скачать в формате CSV","download_geojson":"Скачать GeoJSON","download_geojson_title":"Скачать в формате GeoJSON","download_headline":"Скачать заголовки CSV","download_headline_title":"Скачать данные заголовков в формате CSV","download_source":"Скачать исходные CSV","download_source_sdmx":"Скачать исходные SDMX","download_source_sdmx_title":"Скачать исходные данные в формате SDMX","download_source_title":"Скачать исходные данные в формате CSV","download_table":"Скачать табличные CSV","edit":"Редактировать","edit_configuration":"Редактировать Конфигурация","edit_data":"Редактировать данные","edit_metadata":"Редактировать метаданные","footnote":"Сноска","geographical_area":"Географический район","global_metadata":"Глобальные метаданные","global_metadata_blurb":"В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.","legend_help":"Нажмите на легенду, чтобы убрать линии из графика.","loading":"Загрузка","loading_map":"Загрузка карты","map":"Карта","map_search":"Поиск","map_search_hide":"Скрыть поиск","map_search_show":"Показать поиск","map_year_slider":"Годовой слайдер","national_metadata":"Национальные метаданные","national_metadata_blurb":"В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.","next":"Следующий индикатор","no_data_hint":"Нет имеющихся вариантов из-за фильтров наверху.","plot_legend_description":"Легенда сюжета: список линий, включенных в график","previous":"Предыдущий показатель","select_all":"Выделить всё","series":"Серии","series_help":"Выберите категории из выпадающего меню внизу, чтобы увидеть разные разбивки данных. Несколько не будет доступно, пока более высокий уровень не выбран. ","source":"Источник","sources":"Источники","status":"Состояние индикатора","sub_categories":"Субкатегории","sub_categories_show":"Показать подкатегории:","table":"Таблица","table_column_sort":"Нажмите, чтобы отсортировать по этой колонке","tags":"Теги","unit":"Единица","unit_of_measurement":"Единица измерения","units_type":"Вид единиц","variable_hint":"Доступно, когда выбрано","view_indicator_list":"Посмотреть список индикаторов этой цели"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -396,24 +392,23 @@ var translations = {
   
 <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-tajikistan/ru/">Главная</a></li>
-  <li><a href="/sdg-site-tajikistan/ru/goals">Цели</a></li>
+  <li><a href="/sdg-site-tajikistan/">Home</a></li>
+  <li><a href="/sdg-site-tajikistan/goals">Goals</a></li>
   
-  <li><a href="/sdg-site-tajikistan/ru/11" title="Обеспечение открытости, безопасности, жизнестойкости и экологической
-устойчивости городов и населенных пунктов">Цель 11</a></li>
+  <li><a href="/sdg-site-tajikistan/2" title="End hunger, achieve food security and improved nutrition and promote sustainable agriculture">Goal 2</a></li>
   
 </ol>
 
 
   
 </div>
-<div class="heading goal-banner indicator goal-11">
+<div class="heading goal-banner indicator goal-2">
   <div class="container">
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/sdg-site-tajikistan/ru/11" title="Посмотреть список индикаторов этой цели">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ru/11.png" alt="Устойчивые города и населенные пункты - Цель 11" id="goal-11" class="goal-icon-image goal-icon-image-"/>
+        <a href="/sdg-site-tajikistan/2" title="View this goal's indicator list">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" id="goal-2" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -421,13 +416,9 @@ var translations = {
         <div>
           <h1>
             
-            Показатель 11.c.1
+            Indicator 2.2.3
             
-            <span class="lead-copy">Доля финансовой поддержки наименее развитых
-стран, выделяемой на строительство экологичных,
-прочных и ресурсосберегающих зданий и переоборудование зданий для обеспечения их экологичности,
-прочности и экономии ресурсов с использованием
-местных материалов</span>
+            <span class="lead-copy">global_indicators.2-2-3-title</span>
           </h1>
         </div>
       </div>
@@ -435,7 +426,7 @@ var translations = {
   </div>
 </div>
 
-<div id="main-content" class="container goal-11" role="main">
+<div id="main-content" class="container goal-2" role="main">
   
 
   
@@ -448,27 +439,23 @@ var translations = {
 
 <div class="row"
   id="indicatorData"
-  data-indicatorid='indicator_11-c-1'
-  data-id="11-c-1"
+  data-indicatorid='indicator_2-2-3'
+  data-id="2-2-3"
   data-country="Australia"
-  data-charttitle="Доля финансовой поддержки наименее развитых
-стран, выделяемой на строительство экологичных,
-прочных и ресурсосберегающих зданий и переоборудование зданий для обеспечения их экологичности,
-прочности и экономии ресурсов с использованием
-местных материалов"
-  data-charttitles="null"
+  data-charttitle="global_indicators.2-2-3-title"
+  data-charttitles="[]"
   data-measurementunit=""
   data-showdata="false"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
-  data-startvalues="null"
-  data-graphlimits="null"
+  data-showmap="false"
+  data-startvalues="[]"
+  data-graphlimits="[]"
   data-stackeddisaggregation=""
-  data-graphannotations="null"
+  data-graphannotations="[]"
   data-indicatordownloads="null"
   data-compositebreakdownlabel=""
-  data-precision="null"
+  data-precision="[]"
 >
   
   <div id="indicator-main" class="indicator-main col-md-12">
@@ -480,7 +467,7 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->Национальные метаданные</a>
+>National Metadata</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -488,7 +475,7 @@ data-event-label="Change to National Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Глобальные метаданные</a>
+>Global Metadata</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -496,13 +483,13 @@ data-event-label="Change to Global Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Источники</a>
+>Sources</a>
 </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Редактировать</a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
   </li>
   
 </ul>
@@ -516,7 +503,7 @@ data-event-label="Change to Sources tab"
       <p>
         
         
-        В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.
+        This table provides metadata for the actual indicator available from Australia statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Australian statistics, this table should be consulted for information on national methodology and other Australian-specific metadata information.
       </p>
       <table class="table">
   
@@ -536,7 +523,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Показатель доступен </th>
+        <th scope="row">Indicator available </th>
         <td>
           
             
@@ -550,7 +537,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Описание показателя </th>
+        <th scope="row">Indicator description </th>
         <td>
           
             
@@ -564,7 +551,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Географический охват </th>
+        <th scope="row">Geographical coverage </th>
         <td>
           
             
@@ -578,7 +565,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Единица измерения </th>
+        <th scope="row">Unit of measurement </th>
         <td>
           
             
@@ -592,7 +579,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Определения </th>
+        <th scope="row">Definitions </th>
         <td>
           
             
@@ -606,7 +593,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Расчёты </th>
+        <th scope="row">Calculations </th>
         <td>
           
             
@@ -620,7 +607,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Другая информация </th>
+        <th scope="row">Other information </th>
         <td>
           
             
@@ -634,7 +621,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Гарантия качества </th>
+        <th scope="row">Quality assurance </th>
         <td>
           
             
@@ -648,7 +635,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Сопоставимость с международными данными / стандартами </th>
+        <th scope="row">Comparability with international data/standards </th>
         <td>
           
             
@@ -662,7 +649,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Комментарии и ограничения </th>
+        <th scope="row">Comments and limitations </th>
         <td>
           
             
@@ -676,7 +663,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Рациональное и интерпретация </th>
+        <th scope="row">Rational and interpretation </th>
         <td>
           
             
@@ -690,7 +677,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Последний раз данные обновлялись </th>
+        <th scope="row">Data last updated </th>
         <td>
           
             
@@ -713,7 +700,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Последнее обновление метаданных </th>
+        <th scope="row">Metadata last updated </th>
         <td>
           
             
@@ -721,10 +708,6 @@ data-event-label="Change to Sources tab"
             
             
 
-            
-              <a href="https://github.com/Tajstat/sdg-data-tajikistan/commit/ed267b0e64280b3dba8a269d4379351fc6bca20c" target="_blank">
-                2021-04-01: see changes on GitHub <span class="visuallyhidden">открывается в новой вкладке</span>
-              </a>
             
 
           
@@ -828,7 +811,7 @@ data-event-label="Change to Sources tab"
   <!-- Global Metadata -->
   <div>
     <article>
-      <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
+      <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
       <table class="table">
   
   
@@ -838,14 +821,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Название показателя </th>
+        <th scope="row">Indicator name </th>
         <td>
           
-            <p>Доля финансовой поддержки наименее развитых
-стран, выделяемой на строительство экологичных,
-прочных и ресурсосберегающих зданий и переоборудование зданий для обеспечения их экологичности,
-прочности и экономии ресурсов с использованием
-местных материалов</p>
+            <p>global_indicators.2-2-3-title</p>
 
           
         </td>
@@ -856,10 +835,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Номер показателя </th>
+        <th scope="row">Indicator number </th>
         <td>
           
-            <p>11.c.1</p>
+            <p>2.2.3</p>
 
           
         </td>
@@ -870,13 +849,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Название задачи </th>
+        <th scope="row">Target name </th>
         <td>
           
-            <p>Оказывать наименее развитым странам содействие,
-в том числе посредством финансовой и технической
-помощи, в строительстве экологически устойчивых и прочных зданий с использованием
-местных материалов</p>
+            
 
           
         </td>
@@ -887,10 +863,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Номер задачи </th>
+        <th scope="row">Target number </th>
         <td>
           
-            <p>11.c</p>
+            <p>2.2</p>
 
           
         </td>
@@ -901,10 +877,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Описание глобального показателя </th>
+        <th scope="row">Global indicator description </th>
         <td>
           
-            <p>Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials.</p>
+            
 
           
         </td>
@@ -915,10 +891,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Назначенный ООН уровень </th>
+        <th scope="row">UN designated tier </th>
         <td>
           
-            <p>3</p>
+            
 
           
         </td>
@@ -929,10 +905,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Депозитарное учреждение ООН </th>
+        <th scope="row">UN custodian agency </th>
         <td>
           
-            <p> Organisation for Economic Co-operation and Development (OECD) United Nations Environment (UNEP) World Bank (WB)</p>
+            
 
           
         </td>
@@ -943,7 +919,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Ссылка на метаданные ООН </th>
+        <th scope="row">Link to UN metadata </th>
         <td>
           
             
@@ -951,10 +927,6 @@ data-event-label="Change to Sources tab"
             
             
 
-            
-              <a href="https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target= " target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 4.0 MB) <span class="visuallyhidden">открывается в новой вкладке</span>
-              </a>
             
 
           
@@ -1089,11 +1061,11 @@ data-event-label="Change to Sources tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#tajstat/sdg-site-tajikistan/edit/develop/data/indicator_11-c-1.csv">Редактировать данные</a>
+  <a class="btn btn-primary" href="http://prose.io/#tajstat/sdg-site-tajikistan/edit/develop/data/indicator_2-2-3.csv">Edit Data</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#tajstat/sdg-site-tajikistan/edit/develop/meta/11-c-1.md">Редактировать метаданные</a>
+  <a class="btn btn-primary" href="http://prose.io/#tajstat/sdg-site-tajikistan/edit/develop/meta/2-2-3.md">Edit Metadata</a>
   
 
   
@@ -1115,16 +1087,16 @@ data-event-label="Change to Sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Построен с использованием Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Свяжитесь с нами</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Твиттеру</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
                 
                 </li>
               <li>
@@ -1133,7 +1105,7 @@ data-event-label="Change to Sources tab"
                 
                 </li>
               <li>
-                <a href="/sdg-site-tajikistan/ru/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-site-tajikistan/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -1160,22 +1132,24 @@ data-event-label="Change to Sources tab"
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js" integrity="sha512-9hzM/Gfa9KP1hSBlq3/zyNF/dfbcjAYwUTBWYX+xi8fzfAPHL3ILwS1ci0CTVeuXTGkRAWgRMZZwtSNV7P+nfw==" crossorigin="anonymous"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'скрывать';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Поиск';</script>
+    translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-tajikistan/assets/js/sdg.js?v=20210630012919'></script>
+<script src='/sdg-site-tajikistan/assets/js/sdg.js?v=20210701182125'></script>
 
 
     
     
-    <script src="/sdg-site-tajikistan/assets/js/custom.js?v=20210630012919"></script><script>
+    <script src="/sdg-site-tajikistan/assets/js/custom.js?v=20210701182125"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
