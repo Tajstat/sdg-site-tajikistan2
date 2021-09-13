@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="es" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://tajstat.github.io/sdg-data-tajikistan/ru',
+  remoteDataBaseUrl: 'https://tajstat.github.io/sdg-data-tajikistan2/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'ru',
+  language: 'es',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Contact - Показатели Целей устойчивого развития</title>
+    <title>Categories - general.site_title</title>
 
 
 
@@ -117,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/sdg-site-tajikistan/assets/js/lib/classList.js"></script>
+        <script src="/sdg-site-tajikistan2/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-site-tajikistan/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-site-tajikistan/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-site-tajikistan2/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-site-tajikistan2/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-tajikistan/assets/css/style.css?v=20210831012043">
+        <link rel="stylesheet" href="/sdg-site-tajikistan2/assets/css/style.css?v=20210913011648">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-ru layout-page">
+<body class="language-es layout-categories">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Альфа","default_contrast":"стандартный контраст","disable_high_contrast":"Отключить высокую контрастность","disclaimer":"Это сайт находится в разработке. Мы рады вашим отзывам.","enable_high_contrast":"Включить высокую контрастность","high_contrast":"высокий контраст","skip_link":"Перейти к главному содержанию","tag_line":"17 Целей, чтобы преобразовать наш мир","toggle_menu":"Переключайте меню. Нажмите, чтобы развернуть или свернуть меню.","toggle_search":"Поисковая переключатель. Нажмите, чтобы развернуть или свернуть панель поиска."};</script>
+<script>translations['header'] = null;</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Перейти к главному содержанию</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Альфа</strong>
+    <strong class="phase-tag"></strong>
     
-    Это сайт находится в разработке. Мы рады вашим отзывам.
+    
   </div>
 </div>
 
@@ -166,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/sdg-site-tajikistan/ru/" id="home">
-    <img src="/sdg-site-tajikistan/assets/img/SDG_logo.png" alt="Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир" />
+      <a class="navbar-brand" href="/sdg-site-tajikistan2/es/" id="home">
+    <img src="/sdg-site-tajikistan2/assets/img/SDG_logo.png" alt=" - " />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Pусский</span>
-      <span class="language-abbreviation">ru</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-tajikistan/contact/">
-              English
+            <a href="/sdg-site-tajikistan2/categories/">
+              
+            </a>
+          </li><li>
+            <a href="/sdg-site-tajikistan2/ru/categories/">
+              
             </a>
           </li></ul>
   </div>
@@ -190,10 +194,10 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/sdg-site-tajikistan/ru/search">
-    <label class="sr-only" for="indicator_search">Поиск</label>
-    <input type="text" name="q" id="indicator_search" title="Поиск" /><!--
-    --><button aria-label="Поиск" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-site-tajikistan2/es/search">
+    <label class="sr-only" for="indicator_search"></label>
+    <input type="text" name="q" id="indicator_search" title="" /><!--
+    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +213,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Pусский</span>
-      <span class="language-abbreviation">ru</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-tajikistan/contact/">
-              English
+            <a href="/sdg-site-tajikistan2/categories/">
+              
+            </a>
+          </li><li>
+            <a href="/sdg-site-tajikistan2/ru/categories/">
+              
             </a>
           </li></ul>
   </div>
@@ -228,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Переключайте меню. Нажмите, чтобы развернуть или свернуть меню."
+        aria-label=""
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Меню</button>
+        <button data-target="menu-mobile" aria-expanded="false"></button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/goals">Цели</a>
+    <a href="/sdg-site-tajikistan2/es/goals">general.goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/reporting-status">Состояние отчётности</a>
+    <a href="/sdg-site-tajikistan2/es/reporting-status">menu.reporting_status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/about">О нас</a>
+    <a href="/sdg-site-tajikistan2/es/about">menu.about</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/guidance">Руководство</a>
+    <a href="/sdg-site-tajikistan2/es/guidance">menu.guidance</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/faq">Часто задаваемые вопросы</a>
+    <a href="/sdg-site-tajikistan2/es/faq">menu.faq</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/news">Обновления</a>
+    <a href="/sdg-site-tajikistan2/es/news">menu.updates</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +262,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Pусский</span>
-      <span class="language-abbreviation">ru</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-tajikistan/contact/">
-              English
+            <a href="/sdg-site-tajikistan2/categories/">
+              
+            </a>
+          </li><li>
+            <a href="/sdg-site-tajikistan2/ru/categories/">
+              
             </a>
           </li></ul>
   </div>
@@ -271,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Поисковая переключатель. Нажмите, чтобы развернуть или свернуть панель поиска."
+        aria-label=""
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Поиск</button>
+        <button data-target="search-mobile" aria-expanded="false"></button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-tajikistan/ru/search">
-    <label class="sr-only" for="indicator_search-mobile">Поиск</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Поиск" /><!--
-    --><button aria-label="Поиск" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-site-tajikistan2/es/search">
+    <label class="sr-only" for="indicator_search-mobile"></label>
+    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
+    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/goals">Цели</a>
+    <a href="/sdg-site-tajikistan2/es/goals">general.goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/reporting-status">Состояние отчётности</a>
+    <a href="/sdg-site-tajikistan2/es/reporting-status">menu.reporting_status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/about">О нас</a>
+    <a href="/sdg-site-tajikistan2/es/about">menu.about</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/guidance">Руководство</a>
+    <a href="/sdg-site-tajikistan2/es/guidance">menu.guidance</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/faq">Часто задаваемые вопросы</a>
+    <a href="/sdg-site-tajikistan2/es/faq">menu.faq</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-tajikistan/ru/news">Обновления</a>
+    <a href="/sdg-site-tajikistan2/es/news">menu.updates</a>
 </li>
 </ul>
 
@@ -308,16 +320,28 @@ var translations = {
 
 
 
-
-
 <div id="main-content" class="container" role="main">
-    <div>
-        <h1>Contact</h1>
-        
-            <p>Translation needed.</p>
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Translation needed.</p>
 
-        
+      
+        <div class="archive-group">
+          
+          <div id="#International">
+            <h4 class="category-head">International</h4>
+            <a name="International"></a>
+            
+            
+            <article class="archive-item">
+              <time datetime="2020-01-10T00:00:00+00:00" itemprop="datePublished">Jan 10, 2020</time> - <a href="/sdg-site-tajikistan2/es/test-post-1/">Test Post 1</a>
+            </article>
+            
+          </div>
+        </div>
+      
     </div>
+  </div>
 </div>
 
 <footer role="contentinfo">
@@ -326,25 +350,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Построен с использованием Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Свяжитесь с нами</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">menu.contact_us</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Твиттеру</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">general.twitter</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">general.facebook</a>
                 
                 </li>
               <li>
-                <a href="/sdg-site-tajikistan/ru/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-site-tajikistan2/es/about/cookies-and-privacy/">menu.cookies</a>
                 
                 </li>
               
@@ -376,17 +400,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'скрывать';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Поиск';</script>
+    translations['search']['search'] = '';</script>
 
-<script src='/sdg-site-tajikistan/assets/js/sdg.js?v=20210831012043'></script>
+<script src='/sdg-site-tajikistan2/assets/js/sdg.js?v=20210913011648'></script>
 
 
     
     
-    <script src="/sdg-site-tajikistan/assets/js/custom.js?v=20210831012043"></script><script>
+    <script src="/sdg-site-tajikistan2/assets/js/custom.js?v=20210913011648"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
